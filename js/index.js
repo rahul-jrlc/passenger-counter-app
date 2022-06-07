@@ -20,3 +20,7 @@ function increment() {
     
 }
 
+function save() {
+    console.log(count)
+}
+

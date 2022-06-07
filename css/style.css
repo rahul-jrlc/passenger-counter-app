@@ -33,3 +33,7 @@ button {
 #increment-button {
     background: steelblue;
 }
+
+#save-button {
+    background: darkgreen;
+}
