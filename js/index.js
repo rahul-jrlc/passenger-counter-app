@@ -1,12 +1,25 @@
 // document.getElementById("count-el").innerText = 5
 
 
-let count = 0
+// let count = 5
 
-console.log(count)
+// count = count + 1
 
-let myAge = 22
+// console.log(count)
 
-console.log(myAge)
+let bonus_points = 50
+bonus_points = bonus_points + 50
+
+console.log(bonus_points)
+
+bonus_points = bonus_points - 75
+
+console.log(bonus_points)
+
+bonus_points = bonus_points + 45
+
+console.log(bonus_points)
+
+
 
 
