@@ -31,3 +31,5 @@ function save() {
     console.log(count)
 }
 
+console.log("Count the number of people on the metro.")
+
