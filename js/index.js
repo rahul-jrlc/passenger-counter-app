@@ -7,20 +7,27 @@
 // increment the count variable when the increment button is clicked
 // change the count-el in HTML to reflect the new count
 
+
+let saveEl = document.getElementById("save-el") 
 let countEl = document.getElementById("count-el")
 
-console.log(countEl)
+console.log(saveEl)
 
 let count = 0
 
 function increment() {
     count = count + 1
-    countEl.innerText = count
+    countEl.textContent = count
     console.log(count)
     
 }
 
+
 function save() {
+    let entryStr = count + " - "
+    saveEl.textContent = saveEl.textContent + entryStr
+    count = 0
+    countEl.textContent = count    
     console.log(count)
 }
 
