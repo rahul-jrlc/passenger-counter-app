@@ -1,25 +1,22 @@
 // document.getElementById("count-el").innerText = 5
 
 
-// let count = 5
 
-// count = count + 1
+// initialize the passenger count as 0
+// listen for clicks on the increment button, executes the js on click
+// increment the count variable when the increment button is clicked
+// change the count-el in HTML to reflect the new count
 
-// console.log(count)
+let countEl = document.getElementById("count-el")
 
-let bonus_points = 50
-bonus_points = bonus_points + 50
+console.log(countEl)
 
-console.log(bonus_points)
+let count = 0
 
-bonus_points = bonus_points - 75
-
-console.log(bonus_points)
-
-bonus_points = bonus_points + 45
-
-console.log(bonus_points)
-
-
-
+function increment() {
+    count = count + 1
+    countEl.innerText = count
+    console.log(count)
+    
+}
 
